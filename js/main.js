@@ -5,7 +5,10 @@ const navbar = document.querySelector(".navbar");
 menuIcon.addEventListener('click', () => {
   navbar.classList.toggle('change');
 });
-
+const navList = document.querySelector('.nav-list');
+navList.addEventListener('click',()=>{
+  navbar.classList.toggle('change');
+})
 
 
 /* END NAV */
